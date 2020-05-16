@@ -11,14 +11,14 @@ function leashDog(dogName ,dogBreed){
 }
 
 function walkToPark(dogName ,dogBreed){
-  console.log(`Walk to the park with ${dogName}the ${dogBreed}`);
-  let msg=`Walk to the park with ${dogName}the ${dogBreed}`;
+  console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
+  let msg=`Walk to the park with ${dogName} the ${dogBreed}`;
   return msg;
 }
 
 function throughFrisbee(dogName ,dogBreed){
-  console.log(`Through the frisbee for${dogName}the ${dogBreed}`);
-  let msg=`Through the frisbee for ${dogName}the ${dogBreed}`;
+  console.log(`Through the frisbee for ${dogName} the ${dogBreed}`);
+  let msg=`Through the frisbee for ${dogName} the ${dogBreed}`;
   return msg;
 }
 
