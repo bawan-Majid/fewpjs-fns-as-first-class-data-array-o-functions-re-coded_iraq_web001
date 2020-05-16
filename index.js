@@ -1,12 +1,12 @@
 function wakeDog(dogName ,dogBreed){
-  console.log(`Wake ${dogName}the ${dogBreed}`);
+  console.log(`Wake Xeroxthe Border collie ${dogName}the ${dogBreed}`);
   let msg=`Wake ${dogName}the ${dogBreed}`;
   return msg;
 }
 
 function leashDog(dogName ,dogBreed){
   console.log(`Leash ${dogName}the ${dogBreed}`);
-  let msg=`Leash ${dogName}the ${dogBreed}`;
+  let msg=`Leash Boo Radleythe Pibble ${dogName}the ${dogBreed}`;
   return msg;
 }
 
@@ -36,16 +36,16 @@ function unleashDog(dogName ,dogBreed){
 
 
 const routine=[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
+ let array=[];
 
- let array[];
 function exerciseDog(dogName ,dogBreed){
   
   for(let i=0;i<routine.length;i++){
-  array+= routine[i]+(dogName ,dogBreed);
+  array+= routine[i](dogName ,dogBreed);
   }
   return array;
 }
- exerciseDog( "Byrone","Poodle"); 
+exerciseDog( "Byrone","Poodle"); 
   
   
   
