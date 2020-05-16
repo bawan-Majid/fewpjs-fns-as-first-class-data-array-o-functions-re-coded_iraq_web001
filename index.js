@@ -23,8 +23,8 @@ function throughFrisbee(dogName ,dogBreed){
 }
 
 function walkHome(dogName ,dogBreed){
-  console.log(`Walk home with${dogName}the ${dogBreed}`);
-  let msg=`Walk home with ${dogName}the ${dogBreed}`;
+  console.log(`Walk home with ${dogName} the ${dogBreed}`);
+  let msg=`Walk home with ${dogName} the ${dogBreed}`;
   return msg;
 }
 
